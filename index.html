@@ -149,5 +149,36 @@
         <dt>dog</dt>
         <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, saepe.</dd>
     </dl>
+    <form action="post">
+        <h1>form for practice</h1>
+        <div>
+            <label for="username">Enter username</label>
+            <input type="text" id="username" placeholder="Username" required autofocus>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male"><label for="gender">male</label></input>
+            <input type="radio" name="gender" id="Female"><label for="gender">female</label></input>
+        </div>
+        <div>
+            <input type="checkbox" name="skills" id="java"><label for="skills">java</label>
+            <input type="checkbox" name="skills" id="c++"><label for="skills">c++</label>
+            <input type="checkbox" name="skills" id="c"><label for="skills">c</label>
+        </div>
+        <div>
+            <label for="batch">Select Your Batch</label>
+            <select name="batch" id="batch">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment">Suggest your opinion </label>
+            <input type="text" required name="comment" id="comment">
+        </div>
+        <div>
+            <button type="submit" name="Submit" id="submit">Submit</button>
+        </div>
+    </form>
 </body>
 </html>
