@@ -1,18 +1,4 @@
-body{
-    background-color: blueviolet;
-    color: rgb(201, 171, 0);
-}
-.h1{
-  background-color: yellow;
-  color: red;
-}
-.h2{
-  background-color: red;
-  color: yellow;
-}
-#text4{
-  color: darkgreen;
-}
-#text3{
-  color: blue;
+h3{
+    color: antiquewhite;
+    background-color: cadetblue;
 }
