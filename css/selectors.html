@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css selectors</title>
+    <style>
+        h1{
+            background-color: aqua;
+        }
+        .class{
+            background-color: black;
+            color: white;
+        }
+        #id{
+            background-color: red;
+            color: yellow;
+        }
+        /* child selector */
+        div > span{
+            background-color: chartreuse;
+        }
+        /* decendant selector */
+        div p{
+            color: red;
+        }
+        .class2 p {
+            color: yellow;
+        }
+        /* universal selector */
+        *{
+            padding-bottom: 5%;
+        }
+        /* pseudo slector */
+        a:visited{
+            color: gray;
+        }
+        a:link{
+            color: greenyellow;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        a:active{
+            color: black;
+        }
+        div:first-child{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is element </h1>
+    <h2 class="class">this is class</h2>
+    <h2 id="id"> this is id </h2>
+    <div class="class2">
+        <span>child selectors</span>
+        <p>this is 2nd part off child </p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, repellat excepturi fuga vel fugiat deserunt aliquid et impedit eaque quae!</p>
+    </div>
+    <div>
+        <a href="https://www.google.com">GOOooooooogle</a>
+        <a href="https://www.codewithharry.com">code harry</a>
+    </div>
+    <a href="">active</a>
+    <div>
+        <a href="">raga</a>
+    </div>
+</body>
+</html>
