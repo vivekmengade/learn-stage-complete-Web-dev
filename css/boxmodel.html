@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        h1{
+            background-color:yellow;
+            width: 30%;
+        }
+        .margin{
+            margin: 3%;
+        }
+        .border{
+            border: 10px solid red;
+        }
+        .padding{
+            padding:5%;
+            /* text-align: center; */
+            width: 20%;
+        }
+        .border2{
+
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1> real content</h1>
+    <h1 class="box margin">Margin 3%</h1>
+    <h1 class="box border">Border 10px</h1>
+    <h1 class="box padding">padding 5%</h1>
+    <h1 class="border border2">border with border-box same border property</h1>
+</body>
+</html>
