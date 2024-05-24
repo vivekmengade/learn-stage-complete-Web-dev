@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display and shadow</title>
+    <style>
+        div {
+            border: 2px solid black;
+            margin: auto;
+            padding: 4px;
+            padding-top: 10px;
+        }
+
+        .box {
+            display: inline;
+            /* border: 2px solid black; */
+            
+        }
+
+        .box2 .box {
+            display: block;
+
+        }
+        .box3{
+            display: inline-block;
+            background-color: red;
+            visibility: hidden;
+        }
+        .box4{
+            display: grid;
+        }
+        .shadow{
+            box-shadow: 2px 3px 8px rgb(0, 0, 0);
+            border: 1px solid black;
+        }
+        .shadow2{
+            text-shadow: 2px 3px 5px black;
+            outline: 2px solid red;
+            outline-offset: 10px;
+            border-radius: 10px;
+            width: 250px;
+            /* justify-content: center; */
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">i am box by element display inline</div>
+    <div class="box">i am box display inline</div>
+    <div class="box">i am box display inline</div>
+    <div>
+        <div class="box2">i am box by element display block </div>
+        <div class="box2">i am box display block </div>
+        <div class="box2">i am box display block </div>
+
+    </div>
+    <div class="box3">i am box visibility</div>
+    <div class="box3">i am box visibility</div>
+    <div class="box4">i am box 4 for grid</div>
+    <div class="box4">i am box 4 for grid</div>
+    <span class="box4">Lorem ipsum dolor sit amet.</span>
+    <div class="box4">i am box 4 for grid</div>
+
+    <!-- learn shadow -->
+    <h1 class="shadow">learn shadow</h1>
+    <h1 class="shadow2">learn text shadow</h1>
+</body>
+
+</html>
