@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        :root{
+            --color: #c2faf9;
+            --seccolor:#e0c6fe;
+            --box1: rgb(164, 237, 170);
+            --box2:rgb(244, 244, 159);
+            --text:azure;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            position: sticky;
+            top: 0;
+        }
+        .nav {
+            width: 100vw;
+            height: 10vh;
+            background-color: var(--color);
+            text-align: center;
+            padding: 4vh 0vh 2vh;
+        }
+        .nav h2{
+            position: sticky;
+            /* color: var(--text); */
+        }
+        main {
+            background-color: var(--seccolor);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .box {
+            height: 50vh;
+            width: 23vw;
+            display: inline-block;
+            margin: 20vh 12vw;
+        }
+
+        .box1 {
+            background-color: var(--box1);
+        }
+
+        .box2 {
+            background-color: var(--box2);
+        }
+
+        .container {
+            margin: 0px;
+            height: 40vh;
+            width: 100vw;
+            background-color: var(--color);
+        }
+
+        .container h2 {
+            width: 70vw;
+            /* margin: 10vh; */
+            padding: 10vh 1vw;
+            margin: 0vh 15vw 0vh 15vw;
+            position: relative;
+            top: 10vh;
+            text-align: center;
+            border-radius: 50px;
+            background-color: var(--seccolor);
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: 1px dotted orange;
+            background-color: orange;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h2>Navbar</h2>
+        </div>
+    </header>
+    <main>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+    </main>
+    <div class="container">
+        <h2>hey i am vivek learning web dev and this is 5th exercise for practice on css.</h2>
+    </div>
+    <footer>
+        <div class="circle">
+
+        </div>
+    </footer>
+</body>
+
+</html>
