@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box for container</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height: 70vh;
+        }
+        .container{
+            display: flex;
+            /* justify-content: center; horizontal center */
+            /* align-items: center; vertical center */
+            /* justify-content: flex-end; x-axis end  */
+            /* justify-content: flex-start; x-axis start */
+            /* justify-content: space-around; equal space arround items */
+            /* justify-content: space-between; same space only between items  */
+            /* justify-content: space-evenly; having same space from both side  */
+
+
+            /* align-items: flex-end; right bottom position  */
+            /* align-items: start; default  */
+            /* align-items: end; same flex end  */
+            /* align-items: center; center of vertical side */
+
+
+            /* flex-direction: column; to arrange items in column  */
+            /* flex-direction: column-reverse; invert the direction and sequence of items  */
+            /* flex-direction: row-reverse; reverse the sequence of items in row  */
+
+
+            /* flex-wrap: wrap; it didnt change ratio of items and arrange the items in container sequencely  */
+            
+
+            /* align-content: center;
+            flex-flow: row-reverse; */
+
+        }
+        .items{
+            height: 70px;
+            width: 70px;
+            background-color: blueviolet;
+            margin: 5px;
+            border: 2px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+
+        <!-- <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div><div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div><div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div><div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div> -->
+    </div>
+</body>
+</html>
