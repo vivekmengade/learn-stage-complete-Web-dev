@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito", sans-serif;
+            font-weight: bolder;
+        }
+
+        .nav {
+            width: 100vw;
+            height: 15vh;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-between;
+        }
+
+        .nav .select1 {
+            /* align-content: center; */
+            margin-top: 0px;
+            gap: 50px;
+
+        }
+
+        select {
+            /* text-decoration: none; */
+            border: none;
+            margin: 0;
+            gap: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        #lang{
+           padding-top: 20px;
+           padding-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a id="logo" href="http://"><img src="img/logo.png" alt="logo"></a>
+        <div class="select1">
+            <select name="Product" id="Product">
+                <option value="">Product</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+            <select name="Pricing" id="Pricing">
+                <option value="Pricing">Pricing</option>
+                <option value="Pricing">Pricing</option>
+                <option value="Pricing">Pricing</option>
+            </select>
+            <select name="resources" id="resources">
+                <option value="resources">resources</option>
+                <option value="resources">resources</option>
+                <option value="resources">resources</option>
+            </select>
+            <select name="about" id="about">
+                <option value="about us">About us</option>
+                <option value="about us">About us</option>
+                <option value="about us">About us</option>
+            </select>
+            <a href="##" id="Security">Security and Compliance</a>
+            <a id="alang" href="http://"><img id="lang" src="img/lang.png" alt="language"></a>
+        </div>
+    </div>
+</body>
+
+</html>
