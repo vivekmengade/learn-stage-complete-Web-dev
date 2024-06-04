@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        </style>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            margin: 15px;
+            text-decoration: none;
+            list-style-type: none;
+            /* text-align: center; */
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        li img{
+            scale: 70%;
+        }
+        .sublogo img{
+            /* width: 15vw; */
+            /* padding: auto; */
+            /* margin: 20px; */
+            /* position: relative; */
+            position: relative;
+            /* left: vw; */
+            margin: 20px;
+            /* height: 5vw; */
+        }
+        .sublogo{
+            display: flex;
+            justify-content:start;
+            align-items: end;
+            position: relative;
+            left: 18vw;
+            /* padding: 30px; */
+            /* margin: 30px; */
+            /* margin: 10px; */
+
+        }
+        .sublogo span{
+            padding: 30px;
+        }
+        main .grid{
+            display: grid;
+            grid-template-columns: 20vw 20vw 20vw;
+            grid-template-rows: auto;
+            margin: auto;
+            gap: 30px;
+            width: 60vw;
+        }
+        .item{
+            justify-content: center;
+            display: grid;
+            height: 10vw;
+            width: 17vw;
+            /* border: 1px solid black; */
+            text-align: center;
+            /* padding: 20px; */
+            background-color: rgba(128, 128, 128, 0.341);
+            border-radius: 10px;
+            /* margin: 10px; */
+            gap: 20px;
+            padding: 30px;
+        }
+        button{
+            height: 40px;
+            width: 130px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(0, 211, 0);
+            font-weight: bold;
+            color: white;
+            position: relative;
+            top: 25px;
+        }
+        li a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a id="logo" href="http://"><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="logo"></a>
+        <div class="select1">
+            <ul>
+                <li><h3>Products </h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAgklEQVR4nO2UOwrAIBAF5xKReP+bJFV+TSxynATBQiSI0TXVDggW7htesYKiKIogE7ADRiDLZxzAXPJ4BW7ANcpNyPBZS8nAAJxh4AJshTTNGGsH7R/SFnmztEYuJv0iF5eWyLtJc/Lu0rfddMld4sPJErfs3jTFt9vC6d5UURSFmAePTDtnrV72/QAAAABJRU5ErkJggg=="></li>
+                <li><h3>Pricing </h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAgklEQVR4nO2UOwrAIBAF5xKReP+bJFV+TSxynATBQiSI0TXVDggW7htesYKiKIogE7ADRiDLZxzAXPJ4BW7ANcpNyPBZS8nAAJxh4AJshTTNGGsH7R/SFnmztEYuJv0iF5eWyLtJc/Lu0rfddMld4sPJErfs3jTFt9vC6d5UURSFmAePTDtnrV72/QAAAABJRU5ErkJggg=="></li>
+                <li><h3>Resources </h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAgklEQVR4nO2UOwrAIBAF5xKReP+bJFV+TSxynATBQiSI0TXVDggW7htesYKiKIogE7ADRiDLZxzAXPJ4BW7ANcpNyPBZS8nAAJxh4AJshTTNGGsH7R/SFnmztEYuJv0iF5eWyLtJc/Lu0rfddMld4sPJErfs3jTFt9vC6d5UURSFmAePTDtnrV72/QAAAABJRU5ErkJggg=="></li>
+                <li>About Us</li>
+                <li><a href="##" id="Security">Security and Compliance</a></li>
+                <a title="English" href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/"></a>
+            </ul>
+            
+            <!-- <a id="alang" href="http://"><img id="lang" src="img/lang.png" alt="language"></a> -->
+        </div>
+    </div>
+    <main>
+        <div class="sublogo">
+            <a id="logo2" href="http://"><img id="ndlogo" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="logo"></a>
+            <span>v2024.0(released 04/19/2024) | Hotfix</span>
+        </div>
+        <div class="grid">
+            <div class="item English">
+                <h3>English</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item German">
+                <h3>German</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item Italian">
+                <h3>Italian</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item h3ish">
+                <h3>h3ish</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item French">
+                <h3>French</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item Brazilian Portuguase">
+                <h3>Brazilian Portuguase</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item Japnese">
+                <h3>Japnese</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item Korean">
+                <h3>Korean</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item Chinese">
+                <h3>Chinese</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+            <div class="item Traditional Chinese">
+                <h3>Traditional Chinese</h3>
+                <a href="https://downloads.ultraedit.com/main/ue/win/ue_spanish_64.exe?_gl=1*w6xhcs*_ga*MTI1NTk4NDI0NS4xNzE3NDIxNzIz*_ga_QNXHVTPWNS*MTcxNzUyMDcxMS4yLjAuMTcxNzUyMDcxMS42MC4wLjA."> <button>Download 64-bit</button> </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
