@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transform</title>
+    <style>
+        .cont{
+            width: 100vw;
+            height: 50vh;
+            border: 1px solid black;
+        }
+        .box{
+            width: 10vw;
+            height: 10vw;
+            border: 5px solid purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 50px;
+        }
+        .box{
+            /* transform: rotate(.250turn); */
+            transform: rotate(45deg);
+            /* transform: rotateX(180deg); */
+            /* transform: rotateY(180deg); */
+            /* transform: rotateZ(40deg); */
+            /* transform: scale(1.5); */
+            /* transform: scaleX(1.5); */
+            /* transform: scaleY(1.5); */
+            /* transform: skew(20deg); */
+            /* transform: translate(45%); */
+            /* transform: translateX(30vw); */
+            /* transform: translateY(5vw); */
+            transform-origin: 50% 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
