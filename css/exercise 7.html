@@ -60,7 +60,7 @@
         }
         main .grid{
             display: grid;
-            grid-template-columns: 20vw 20vw 20vw;
+            grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto;
             margin: auto;
             gap: 30px;
@@ -85,15 +85,25 @@
             width: 130px;
             border: none;
             border-radius: 10px;
-            background-color: rgb(0, 211, 0);
+            background-color: rgba(0, 125, 27, 0.907);
             font-weight: bold;
             color: white;
             position: relative;
             top: 25px;
+            /* cursor: pointer; */
         }
         li a{
             color: black;
             text-decoration: none;
+        }
+        @media screen and (max-width:1100px) {
+            main .grid{
+                grid-template-columns: 1fr;
+                display: grid;
+            }
+            .item{
+                margin: auto;
+            }
         }
     </style>
 </head>
