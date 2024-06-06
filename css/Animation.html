@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transition</title>
+    <style>
+        .cont{
+            width: 60vw;
+            height: 100vh;
+            background-color: blanchedalmond;
+            margin: 100px;
+            padding: 50px;
+        }
+        .box{
+            transform: translateX(150%);
+            /* transform: ; */
+            width: 9vw;
+            height: 20vh;
+            background-color: burlywood;
+            /* padding: 30px; */
+            margin-top: 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            border-radius: 80px;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: animation 2s cubic-bezier(0.86,-0.03, 0.14, 0.99) 1s 2 forwards , anim1 2s 1s 3 forwards;
+        }
+        .ani1{
+            background-color: rgb(211, 243, 223);
+            /* height: 300px;
+            width: 300px; */
+            /* background-color:blue; */
+            
+        }
+        .ani2{
+            background-color: rgb(130, 255, 236);
+            color: gray;
+        }
+        .ani3{
+            background-color: cadetblue;
+            color: aliceblue;
+        }
+        @keyframes animation {
+            from{
+                transform: translateX(0%) rotate(-90deg);
+            }
+            to{
+                transform: translateX(150%) rotate(0deg);
+            }
+        }
+        @keyframes anim1 {
+            from{
+                
+            }
+            to{
+                background-color: rgba(99, 99, 206, 0.648);
+            }
+        }
+        body{
+            /* filter: invert(1); */;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box ani1 ani12">
+            <a href="#">Box</a>
+        </div>
+        <div class="box ani2">
+            Box
+        </div>
+        <div class="box ani3">
+            Box
+        </div>
+    </div>
+</body>
+</html>
