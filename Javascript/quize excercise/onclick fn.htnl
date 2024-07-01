@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test func in java</title>
+    <style>
+        body{
+            
+        }
+        #para {
+            color: black;
+            margin: 50px;
+            padding: 50px;
+            font-size: 30px;
+            position: absolute;
+            top: 10vh;
+            border-radius: 50px;
+            border: 1px solid black;
+        }
+
+        button {
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            /* background-color: rgb(188, 124, 188); */
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 5px 10px;
+            position: sticky;
+            top: 20vh;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+        }
+        .buttons :nth-child(1){
+            background-color: red;
+        }
+        .buttons :nth-child(2){
+            background-color: green;
+        }
+        .buttons :last-child{
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil itaque rem modi ipsa a
+        cupiditate esse,
+        beatae, repellat ad reiciendis impedit maxime iusto consectetur.
+    </p>
+    <div class="buttons">
+        <button type="button" onclick="cred()">color red </button>
+        <button type="button" onclick="cgreen()">color green </button>
+        <button type="button" onclick="cblue()">color blue </button>
+    </div>
+
+
+    <script>
+        let para = document.getElementById("para")
+        function cred() {
+            document.getElementById('para').style.backgroundColor = "red"
+        }
+        function cblue() {
+            document.getElementById('para').style.backgroundColor = "blue";
+        }
+        function cgreen() {
+            document.getElementById('para').style.backgroundColor = "green";
+        }
+    </script>
+
+</body>
+
+</html>
