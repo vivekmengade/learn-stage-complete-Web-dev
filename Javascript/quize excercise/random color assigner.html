@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conrdnt="width=device-width, initial-scale=1.0">
+    <title>excersise 11</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script>
+        let a = document.getElementsByClassName("box")
+        console.log(a, typeof a)
+        let b = Array.from(a)
+        console.log(b)
+        b.forEach(element => {
+
+            let rd = Math.random()
+            if (rd > 0.9) {
+                element.style.backgroundColor = "red"
+                console.log(rd)
+            }
+            if (rd > 0.8 && rd < 0.9) {
+                element.style.backgroundColor = "green"
+                console.log(rd)
+            }
+            if (rd > 0.6 && rd < 0.8) {
+                element.style.backgroundColor = "yellow"
+                console.log(rd)
+            }
+            if (rd > 0.4 && rd < 0.6) {
+                element.style.backgroundColor = "aqua"
+                console.log(rd)
+            }
+            if (rd > 0.2 && rd < 0.4) {
+                element.style.backgroundColor = "gray"
+                console.log(rd)
+            }
+        });
+        console.log(rd)
+    </script>
+</body>
+
+</html>
