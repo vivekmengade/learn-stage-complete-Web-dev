@@ -87,7 +87,18 @@
         document.getElementById('para').setAttribute("style","color:red")
         document.getElementById('para').attributes
         document.getElementById('para').removeAttribute("style")
-        
+        let hii = document.createElement("div")
+        hii.innerHTML="hii Vivek"
+        document.getElementById('para').before(hii)
+        document.getElementById('para').after(hii)
+        document.getElementById('para').append(hii)
+        document.getElementById('para').prepend(hii)
+        document.getElementById('para').prepend(hii)
+        // document.getElementById('para').insertAdjacentElement("beforebegin","helloboys")
+        let p=document.getElementById('para')
+        p.insertAdjacentHTML("afterbegin","hey boss")
+        p.classList.add("text")
+        p.classList.toggle("text")
     
     </script>
 
