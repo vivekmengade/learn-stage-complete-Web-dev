@@ -38,3 +38,23 @@ console.log(x +=y)
 console.log(x *=y) 
 console.log(x -=y) 
 console.log(x /=y)
+
+            //playing if & else loop
+let e=2
+let f=8
+
+if(e==f){
+    console.log("same ")
+}
+else if(e!=f){
+    console.log("not same")
+}
+else if(e<f){
+    console.log("f is greater than e")
+}
+else if(e>f){
+    console.log("e is greater than f")
+}
+else{
+    console.log("no match")
+}
