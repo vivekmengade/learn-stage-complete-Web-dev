@@ -24,3 +24,17 @@ console.log("add",add)
 console.log("sub",sub)
 console.log("div",div)
 console.log("mul",mul)
+
+
+let c= a=b  // value of b is assogn to a
+console.log(c)
+
+
+
+            //assignment opperators
+let x=3
+let y=5
+console.log(x +=y) 
+console.log(x *=y) 
+console.log(x -=y) 
+console.log(x /=y)
