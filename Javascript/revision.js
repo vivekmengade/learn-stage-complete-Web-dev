@@ -58,3 +58,25 @@ else if(e>f){
 else{
     console.log("no match")
 }
+
+
+if(e+f==11||e-f==5){
+    console.log("e = 6 & f = 5")
+}
+else if(e+f==10||e-f==0){
+    console.log("e=5 and f=5")
+}
+else{
+    console.log("no number in 5& 6")
+}
+
+
+
+
+                // ternary operater
+
+//condition ? (statment ):(else statement) 
+e>f?(console.log("e is greater than f")):(console.log("f is greater than e"))
+
+
+                //loops study 
