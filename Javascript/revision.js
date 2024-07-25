@@ -80,3 +80,10 @@ e>f?(console.log("e is greater than f")):(console.log("f is greater than e"))
 
 
                 //loops study 
+let q=4
+let w=5
+//making table using for loop 
+console.log("table of",q)
+for(i=1;i<=10;i++){
+    console.log(q,"*",i,"=",q*i)
+}
