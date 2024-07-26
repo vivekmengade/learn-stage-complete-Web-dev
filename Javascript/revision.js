@@ -115,3 +115,9 @@ let object = new Object([
     ["salary", `4lpa`],
     ["job role", "developer"]
 ])
+
+
+// for of loop 
+for (let [index, value] of object) {
+    console.log(`${index}:${value}`)
+}
