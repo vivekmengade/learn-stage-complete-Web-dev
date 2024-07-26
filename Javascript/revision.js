@@ -95,3 +95,17 @@ let obj = {
     "job role": "developer",
     salary: `900000.LPA`
 }
+for (let key in obj) {
+    console.log(`${key}:${obj[key]}`)
+}
+obj.Surname = "Mengade"
+for (let key in obj) {
+    console.log(`${key}:${obj[key]}`)
+}
+
+
+// creating array and using for in loop 
+let colors = ["Red", "Green", "Blue"]
+for (let index in colors) {
+    console.log(`${index}:${colors[index]}`)
+}
