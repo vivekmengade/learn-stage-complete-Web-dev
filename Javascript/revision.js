@@ -135,3 +135,26 @@ if (E > 10) {
 else {
     console.log(E, "is greater than 10")
 }
+
+
+
+/ let num = 10
+
+
+                            // create function 
+function table(num) {
+    for (i = 1; i <=10; i++) {
+        console.log(i*num)
+    }
+}
+table(10)
+
+
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(10,11))
+console.log(sum(11,12))
+console.log(sum(12,13))
+let result=sum(10,12)
+console.log("result defined",result)
