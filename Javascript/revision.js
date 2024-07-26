@@ -158,3 +158,31 @@ console.log(sum(11,12))
 console.log(sum(12,13))
 let result=sum(10,12)
 console.log("result defined",result)
+
+
+
+
+
+
+                    // arrow function 
+const func=(x,y)=>{
+    console.log(x+y)
+}
+func(100,12)
+
+
+
+
+                    // string
+let name="viVek"
+let surname= "Mengade"
+// let upper=name.toUpperCase()
+console.log(name[1])
+console.log(name.length)
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.slice(2))
+console.log(name.replace("v","h"))
+console.log(name.concat(surname))
+console.log(name.concat(" Mengade"))
+// console.log(name.trim(2))
