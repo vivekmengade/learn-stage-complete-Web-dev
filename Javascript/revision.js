@@ -87,3 +87,11 @@ console.log("table of",q)
 for(i=1;i<=10;i++){
     console.log(q,"*",i,"=",q*i)
 }
+
+//for in loop 
+//creating object 
+let obj = {
+    name: "vivek",
+    "job role": "developer",
+    salary: `900000.LPA`
+}
