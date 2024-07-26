@@ -109,3 +109,9 @@ let colors = ["Red", "Green", "Blue"]
 for (let index in colors) {
     console.log(`${index}:${colors[index]}`)
 }
+let object = new Object([
+
+    ["name", "raja"],
+    ["salary", `4lpa`],
+    ["job role", "developer"]
+])
