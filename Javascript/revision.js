@@ -121,3 +121,17 @@ let object = new Object([
 for (let [index, value] of object) {
     console.log(`${index}:${value}`)
 }
+
+// while loop 
+let E = 0
+do {
+    E++;
+    console.log(E)
+}
+while (E <= 10)
+if (E > 10) {
+    console.log(E, "is greater than 10")
+}
+else {
+    console.log(E, "is greater than 10")
+}
