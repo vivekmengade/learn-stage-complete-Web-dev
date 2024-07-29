@@ -186,3 +186,62 @@ console.log(name.replace("v","h"))
 console.log(name.concat(surname))
 console.log(name.concat(" Mengade"))
 // console.log(name.trim(2))
+
+
+
+
+
+                                // quize of exercise
+// 1st chapter 3
+let objects = {
+    vivek:70,
+    pritesh:80,
+    suyash:90
+}
+for (const key in objects) {
+    console.log(key,objects[key])
+}
+
+
+
+// try again until number is correct 
+
+const b = "9"
+let a = ""
+while (a !== b) {
+    a = prompt("enter element")
+    if (a === b) {
+        alert("correct");
+    }
+    else {
+        alert("try again");
+    }
+}
+
+
+
+
+
+// find mean of elements
+function mean(a,b,c,d,e){
+    let sum=a+b+c+d+e
+    console.log(sum/mean.length)
+    console.log(sum)
+}
+mean(11,22,33,44,55)
+
+
+
+
+let name=`     Vivek's`
+console.log(name.trim())
+console.log(name.length)
+console.log(typeof name)
+console.log(name)
+let a=`the name is ${name} `
+console.log("print \n \t \r \r",a)
+
+
+
+
+
