@@ -288,3 +288,31 @@ let table=num.map(e=> {
     return e*a;
 });
 console.log(table)
+
+
+
+const greaterthan3=((e)=>{
+    if(e>3){
+        return true;
+    }
+    else{
+        return false
+    }
+})
+console.log(arr.filter(greaterthan3))
+
+const red=(a,b)=>{
+    return a+b
+}
+console.log(arr.reduce(red))
+// let name=A
+console.log(Array.from("Vivek"))
+
+
+
+
+let a=5
+let b=1
+for(i=1;i<=a;i++){
+    console.log(b=b*i)
+}
