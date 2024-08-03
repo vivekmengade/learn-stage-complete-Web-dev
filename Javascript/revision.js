@@ -253,3 +253,38 @@ arr[0]=50
 console.log(arr)
 let ar=arr.toString()
 console.log(typeof ar)
+
+console.log(arr.join(" and "))
+console.log(arr.pop())
+console.log(arr)
+console.log(arr.pop())
+console.log(arr)
+console.log(arr.push(5))
+console.log(arr)
+console.log(arr.shift())
+console.log(arr)
+console.log(arr.unshift(1))
+console.log(arr)
+console.log(delete arr[0])
+console.log(arr)
+console.log(arr.concat(arr,ar))
+console.log(arr.sort())
+console.log(arr.splice(1))
+console.log(arr.reverse())
+
+
+
+
+
+            // map
+
+
+console.log(arr)
+let a=3
+let arr2=arr.map(e=> e*a)
+console.log(arr2)
+let num=[1,2,3,4,5,6,7,8,9,10]
+let table=num.map(e=> {
+    return e*a;
+});
+console.log(table)
