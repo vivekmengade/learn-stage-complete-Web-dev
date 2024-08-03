@@ -248,3 +248,8 @@ console.log("print \n \t \r \r",a)
 let arr=[1,2,3,4,5]
 console.log(arr)
 console.log(arr.length)
+
+arr[0]=50
+console.log(arr)
+let ar=arr.toString()
+console.log(typeof ar)
