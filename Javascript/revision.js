@@ -321,3 +321,20 @@ for(i=1;i<=a;i++){
 
 
                     // today no change in file
+
+
+document.body.childNodes
+document.body.firstChild
+document.body.firstElementChild
+document.body.parentElement
+document.body.children
+document.body.children[2].nextSibling
+document.body.children[4].previousElementSibling
+                                           //Selection By Class & Id
+
+
+
+document.querySelector(".name").style.backgroundColor="red"
+document.getElementById("purpose")
+document.querySelector("name").style.backgroundColor="red"
+document.querySelector(".name").innerHTML="Nihar"
