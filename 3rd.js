@@ -55,5 +55,34 @@ while(gno!=pno){
     console.log("correct number is: ", gno);
     pno=prompt("guess next number");
 }
-    */
-   
+    
+   let name = "Vivek";
+   console.log(name[4])
+
+   let product={
+    name:"pen",
+    cost:10
+   }
+   let output=`The cost of ${product.name} is ${product.cost}`;
+console.log(output);
+   console.log("the cost of", product.name,"is",product.cost);
+  
+
+   let name = "Vivek";
+   console.log(name.toUpperCase());
+   console.log(name.toLowerCase());
+
+
+   let str = "Hello World";
+   console.log(str);
+   console.log(str.trim()); // Removes whitespace from both ends of the string
+   console.log(str.slice(0, 5)); // Extracts a section of the string from index 0 to 5
+   console.log(str.replace("World","Vivek"));
+   console.log(str.split(" ")); // Splits the string into an array of substrings based on the space character
+   console.log(str.concat(" - Welcome")); // Concatenates two strings
+   console.log(str.charAt(0)); // Returns the character at index 0
+ */
+let fullname =prompt("Enter your full name: ");
+// console.log(`username = @${fullname.toLowerCase().trim()}${fullname.length}`);
+let userName="@"+fullname.toLowerCase().trim()+fullname.length;
+console.log(userName);
