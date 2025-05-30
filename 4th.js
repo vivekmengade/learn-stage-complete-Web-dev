@@ -37,7 +37,7 @@ for(let i=0; i<marks.length;i++){
 let avg=total/marks.length;
 console.log("total marks: ",total);
 console.log("average marks: ",avg);
-*/
+
 
 
 let item=[250,645,300,900,50];
@@ -49,3 +49,36 @@ for(let i=0;i<item.length;i++){
     item[i]-=offer;
     console.log("item after offer: ",item[i]);
 }
+
+
+let name=["vivek","amruta","nihar"];
+name.push("priya");
+console.log(name.toString());
+console.log(name.pop());
+console.log(name);
+
+surname=["patil","shinde","deshmukh"];
+let fullName=name.concat(surname);
+console.log(fullName);
+console.log(fullName.shift());
+console.log(fullName.slice(1,3));
+console.log(fullName);
+console.log(fullName.splice(1,1,"sharma"));
+console.log(fullName);
+*/
+
+
+
+let array = [10, 20, 30, 40, 50];
+console.log(array); // [10, 20, 30, 40, 50]
+let slicea= array.splice(2,1,101);
+console.log(array); // [10, 20, 101, 40, 50]
+
+company=["bloomberg","microsoft","uber","google","ibm","netflix"];
+console.log(company);
+company.shift();
+console.log(company);
+company.splice(1,1,"ola");
+console.log(company);
+company.push("amazon");
+console.log(company);
